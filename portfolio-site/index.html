@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="th">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio | Nonthasin</title>
+    <meta
+      name="description"
+      content="ผลงาน ประสบการณ์ และช่องทางติดต่อของ Your Name — นักออกแบบ/นักพัฒนา"
+    />
+    <meta name="theme-color" content="#0f172a" />
+    <meta property="og:title" content="Portfolio | Your Name" />
+    <meta
+      property="og:description"
+      content="รวมผลงานเด่น ทักษะ และประวัติการทำงาน"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="assets/og-image.png" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="preload"
+      href="assets/hero.svg"
+      as="image"
+      type="image/svg+xml"
+    />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">ข้ามไปยังเนื้อหา</a>
+    <header class="site-header" id="top">
+      <nav class="nav container">
+        <a class="brand" href="#top" aria-label="กลับขึ้นบน">
+          <img src="assets/logo.svg" alt="" width="28" height="28" />
+          <span>Nonthasin</span>
+        </a>
+        <button
+          class="nav-toggle"
+          aria-expanded="false"
+          aria-controls="nav-menu"
+          aria-label="เปิดเมนู"
+        >
+          <span class="bar"></span><span class="bar"></span
+          ><span class="bar"></span>
+        </button>
+        <ul id="nav-menu" class="menu">
+          <li><a href="#about">เกี่ยวกับ</a></li>
+          <li><a href="#skills">ทักษะ</a></li>
+          <li><a href="#projects">ผลงาน</a></li>
+          <li><a href="#experience">ประสบการณ์</a></li>
+          <li><a href="#contact">ติดต่อ</a></li>
+          <li>
+            <button
+              id="themeToggle"
+              class="theme-toggle"
+              aria-label="สลับโหมดแสง/มืด"
+            >
+              🌓
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero container">
+        <div class="hero-text">
+          <h1>สวัสดี ฉันคือ <span class="accent">Nonthasin</span></h1>
+          <p class="lead">
+            ตำแหน่งของคุณ เช่น นักพัฒนา Frontend | ที่มีความรู้นิดหน่อย | 
+          </p>
+          <div class="cta">
+            <a class="btn primary" href="#projects">ดูผลงาน</a>
+            <a
+              class="btn"
+              href="assets/Resume.pdf"
+              target="_blank"
+              rel="noopener"
+              >ดาวน์โหลดเรซูเม่</a
+            >
+          </div>
+          
+          <a class="btn outline" href="https://github.com/Oaker23" target="_blank" rel="noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="vertical-align:middle; margin-right:6px;">
+              <path d="M12 .5C5.7.5.8 5.4.8 11.7c0 4.9 3.2 9 7.6 10.5.6.1.8-.3.8-.6v-2c-3.1.7-3.7-1.5-3.7-1.5-.5-1.2-1.1-1.6-1.1-1.6-.9-.6.1-.6.1-.6 1 .1 1.5 1.1 1.5 1.1.9 1.5 2.4 1.1 3 .8.1-.6.3-1.1.6-1.4-2.5-.3-5.2-1.3-5.2-5.9 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.5.1-3.1 0 0 1-.3 3.2 1.2a10.8 10.8 0 0 1 5.8 0C17 5.1 18 5.5 18 5.5c.6 1.6.2 2.8.1 3.1.8.9 1.2 2 1.2 3.2 0 4.6-2.7 5.6-5.2 5.9.3.3.6.9.6 1.8v2.6c0 .3.2.7.8.6a10.9 10.9 0 0 0 7.6-10.5C23.2 5.4 18.3.5 12 .5z"/>
+            </svg>
+            GitHub
+          </a>
+          
+          <!-- <ul class="social">
+            <li><a href="https://github.com/Oaker23" target="_blank" rel="noopener" aria-label="GitHub">GitHub</a></li>
+          </ul> -->
+        </div>
+        <div class="hero-image">
+          <img src="assets/Rocket-1-removebg-preview.png" alt="Rocket" class="rocket">
+        </div>
+      </section>
+
+      <section id="about" class="section container">
+        <h2>เกี่ยวกับฉัน</h2>
+        <p>
+          เพิ่มชีวประวัติสั้นๆ ของคุณที่นี่ อธิบายแนวทางการทำงาน ความสนใจ
+          และสิ่งที่ทำให้คุณต่างจากคนอื่นๆ
+        </p>
+        <div class="cards">
+          <article class="card">
+            <h3>สิ่งที่เชื่อ</h3>
+            <p>ทำจริงถึงรู้อย่ารอให้พร้อมค่อยเริ่มชอบลองทำก่อน</p>
+          </article>
+          <article class="card">
+            <h3>สิ่งที่ทำได้ดี</h3>
+            <p>เขียนโค้ดฝั่งหน้าเว็บให้ใช้งานได้เน้นชัวมากกว่า</p>
+          </article>
+          <article class="card">
+            <h3>กำลังเรียนรู้</h3>
+            <p>ฝึกเข้าใจการเขียนโค้ดให้สะอาด ให้ดูมืออาชีพต่อยอด FUll STACK</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section container">
+        <h2>ทักษะ</h2>
+        <div class="skills">
+          <div class="skill-group">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Python</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Design</h3>
+            <ul>
+              <li>Figma</li>
+              <li>photoshop</li>
+              <li>Canva</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects" class="section container">
+        <h2>ผลงานเด่น</h2>
+        <div class="grid projects">
+        <article class="project">
+        <img src="assets/wifi-car-preview.jpg" alt="WiFi Controlled Car Project" loading="lazy">
+        <div class="project-body">
+          <h3>WiFi Controlled Car</h3>
+          <p>
+            โปรเจกต์รถบังคับผ่าน Wi-Fi โดยใช้ <strong>NodeMCU ESP8266</strong> เชื่อมต่อกับแอป <strong>Blynk</strong> 
+            เพื่อควบคุมทิศทางและความเร็วของรถผ่านมือถือได้แบบเรียลไทม์ 
+            เขียนโปรแกรมด้วย <strong>Arduino IDE</strong> ใช้คำสั่งจาก Virtual Pins (V0–V4) 
+            เพื่อสั่งให้รถเดินหน้า ถอยหลัง เลี้ยวซ้าย ขวา และหยุดการทำงาน
+          </p>
+          <div class="project-actions">
+            <a class="btn small" href="https://github.com/Oaker23/Wifi_Cotrol_car-lot" target="_blank" rel="noopener">ดูโค้ดบน GitHub</a>
+          </div>
+          <ul class="tags">
+            <li>ESP8266</li>
+            <li>Blynk</li>
+            <li>Arduino</li>
+            <li>IoT</li>
+          </ul>
+        </div>
+      </article>
+        <article class="project">
+        <img src="assets/infographic-preview.jpg" alt="Infographic Video Project" loading="lazy">
+        <div class="project-body">
+          <h3>Infographic Animation</h3>
+          <p>
+            คลิปอินโฟกราฟิกสั้นแสดงข้อมูลเชิงภาพ โดยใช้ <strong>Adobe Animate</strong> 
+            สร้างภาพเคลื่อนไหวผสมกับการตัดต่อใน <strong>CapCut</strong> 
+            และออกแบบองค์ประกอบกราฟิกผ่าน <strong>Canva</strong> 
+            เพื่อเล่าเรื่องให้เข้าใจง่ายและน่าสนใจในรูปแบบ motion graphic สมัยใหม่
+          </p>
+          <div class="project-actions">
+            <a class="btn small" href="https://youtu.be/JWHEz3DTTMU" target="_blank" rel="noopener">ดูวิดีโอบน YouTube</a>
+          </div>
+          <ul class="tags">
+            <li>Adobe Animate</li>
+            <li>CapCut</li>
+            <li>Canva</li>
+            <li>Infographic</li>
+            <li>Motion Design</li>
+          </ul>
+        </div>
+      </article>
+          <article class="project">
+            <img
+              src="assets/portfolio-preview.jpg"
+              alt="ภาพหน้าพอร์ตโฟลิโอของ Nonthasin Noinat"
+              loading="lazy"
+            />
+            <div class="project-body">
+              <h3>My Portfolio Website</h3>
+              <p>
+                เว็บไซต์พอร์ตโฟลิโอส่วนตัว พัฒนาโดยใช้ HTML, CSS, และ JavaScript
+                เพื่อแสดงข้อมูลส่วนตัวและผลงาน
+              </p>
+              <div class="project-actions">
+                <a
+                  class="btn small"
+                  href="https://github.com/Oaker23/Website"
+                  target="_blank"
+                  rel="noopener"
+                  >ดูโค้ดบน GitHub</a
+                >
+              </div>
+              <ul class="tags">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="experience" class="section container">
+        <h2>ประสบการณ์</h2>
+        <ol class="timeline">
+        <li>
+          <div class="time">2566 · 3 เดือน</div>
+          <div class="content">
+            <h3>Siam Amazing Park</h3>
+            <p>พนักงานดูแลเครื่องเล่น</p>
+            <ul>
+              <li>ดูแลและเปิดเครื่องเล่นให้ลูกค้า</li>
+              <li>ขายบัตรหรือบัตรต่าง ๆ</li>
+              <li>ทำความสะอาด ตรวจเช็กอุปกรณ์</li>
+              <li>เปิดเครื่องให้บริการ</li>
+            </ul>
+          </div>
+          <br>
+        </li>
+        <li>
+          <div class="time">2568 · 3 เดือน</div>
+          <div class="content">
+            <h3>7-11 Eleven</h3>
+            <p>พนักงานภายในร้าน / Rider</p>
+            <ul>
+              <li>จัดเรียงสินค้าและบริการลูกค้าในร้าน</li>
+              <li>จัดส่งสินค้าให้ลูกค้าตามพื้นที่ที่รับผิดชอบ</li>
+            </ul>
+          </div>
+        </li>
+      </ol>
+      </section>
+
+      <section id="contact" class="section container">
+        <h2>ติดต่อ</h2>
+        <p>พร้อมคุยงานหรือยัง ฝากข้อความไว้ได้เลย</p>
+        <form
+          class="contact-form"
+          action="https://formspree.io/f/your-id"
+          method="POST"
+        >
+          <div class="row">
+            <label
+              >ชื่อ
+              <input type="text" name="name" required />
+            </label>
+            <label
+              >อีเมล
+              <input type="email" name="email" required />
+            </label>
+          </div>
+          <label
+            >ข้อความ
+            <textarea name="message" rows="6" required></textarea>
+          </label>
+          <button class="btn primary" type="submit">ส่งข้อความ</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <p>© <span id="year"></span> Nonthasin. สงวนลิขสิทธิ์</p>
+        <a href="#top" class="back-to-top">กลับขึ้นบน ↑</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
