@@ -210,3 +210,116 @@ body {
     transform: translateY(0) rotate(0deg);
   }
 }
+
+#resume {
+  text-align: center;
+  padding: 4rem 1rem;
+}
+
+#resume h2 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.resume-intro {
+  color: var(--text-soft);
+  max-width: 600px;
+  margin: 0 auto 2rem;
+  line-height: 1.6;
+}
+
+/* กริดภาพเรซูเม่ */
+.resume-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  justify-items: center;
+}
+
+/* สไตล์ภาพแต่ละใบ */
+.resume-grid img {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* เอฟเฟกต์ตอน hover */
+.resume-grid img:hover {
+  transform: translateY(-5px) scale(1.02);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.25);
+  cursor: pointer;
+}
+
+.project {
+  transition: all 0.35s ease;
+  transform-origin: center;
+  cursor: pointer;
+}
+
+.project:hover {
+  transform: translateY(-10px) scale(1.03);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  background: rgba(255, 255, 255, 0.05);
+}
+
+/* สไตล์พื้นฐานของปุ่มในแต่ละโปรเจกต์ */
+.project-actions .btn {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 1px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+  font-weight: 500;
+}
+
+/* เอฟเฟกต์ Hover */
+.project-actions .btn:hover {
+  color: #fff;
+  background: var(--accent);
+  transform: translateY(-3px) scale(1.02);
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+/* เพิ่มแสงเฉียงวิ่งผ่านปุ่ม */
+.project-actions .btn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -80%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(
+    120deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.4) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: skewX(-25deg);
+}
+
+.project-actions .btn:hover::after {
+  animation: buttonShine 0.9s ease;
+}
+
+@keyframes buttonShine {
+  from {
+    left: -80%;
+  }
+  to {
+    left: 130%;
+  }
+}
+
+/* ทำให้ปุ่ม YouTube ดูต่างออกไปนิด (สีแดง) */
+.project-actions .btn.youtube {
+  border-color: #ff4d4d;
+  color: #ff4d4d;
+}
+
+.project-actions .btn.youtube:hover {
+  background: #ff4d4d;
+  color: #fff;
+  box-shadow: 0 6px 15px rgba(255, 77, 77, 0.4);
+}
