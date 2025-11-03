@@ -10,7 +10,7 @@ all handcrafted using **HTML, CSS, and JavaScript**.
 
 ## 🚀 Live Demo
 
-🔗 **Visit the Website:** [Portfolio-web (GitHub Pages)](https://oaker23.github.io/Portfolio-web/)
+🔗 **Visit the Website:** [Portfolio-web (GitHub Pages)](https://portfolio-web-indol-seven.vercel.app/)
 
 Explore my online portfolio — responsive, animated, and fully coded by me.
 
