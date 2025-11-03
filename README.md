@@ -1,25 +1,33 @@
 # 🌟 Personal Portfolio Website – Nonthasin Noinat
 
 A personal portfolio website built and designed by **Nonthasin Noinat**,  
-a Digital Technology student passionate about **Front-end Development** and visual design.
+a Digital Technology student passionate about **Front-end Development** and creative design.
 
 This site showcases my background, technical skills, and featured projects —  
-all crafted with pure **HTML, CSS, and JavaScript**.
+all handcrafted using **HTML, CSS, and JavaScript**.
 
 ---
 
-## 🚀 Overview
+## 🚀 Live Demo
 
-The website is designed with simplicity and clarity in mind —  
-a clean, dark-themed layout with smooth animations and responsive design for both desktop and mobile devices.
+🔗 **Visit the Website:** [Portfolio-web (GitHub Pages)](https://oaker23.github.io/Portfolio-web/)
 
-### 💻 Sections Included
-- **Home:** A brief self-introduction and a resume download button  
-- **About Me:** Personal traits, mindset, and things I’m currently learning  
-- **Skills:** Core Front-end skills and creative tools  
-- **Projects:** Highlighted works with code and video previews  
-- **Experience:** Real-world work and internship experiences  
-- **Contact:** Simple and direct contact section  
+Explore my online portfolio — responsive, animated, and fully coded by me.
+
+---
+
+## 💡 Overview
+
+The website is designed to be clean, modern, and easy to navigate.  
+It supports both desktop and mobile screens with smooth transitions and light/dark themes.
+
+### 📄 Website Sections
+- **Home:** Introduction and resume download link  
+- **About Me:** Personal mindset and ongoing learning goals  
+- **Skills:** Core Front-end and creative toolset  
+- **Projects:** Highlighted works with live links and code access  
+- **Experience:** Real-world job and internship experiences  
+- **Contact:** Direct and simple contact information  
 
 ---
 
@@ -27,9 +35,9 @@ a clean, dark-themed layout with smooth animations and responsive design for bot
 
 | Project | Description | Link |
 |----------|--------------|------|
-| **WiFi Controlled Car** | A Wi-Fi controlled smart car built with NodeMCU ESP8266 and Blynk App, allowing remote control and speed adjustment. | [View on GitHub](https://github.com/Oaker23/Wifi_Cotrol_car-lot) |
-| **Infographic Animation** | An animated short explaining logistics and delivery flow, created using **Adobe Animate**, **CapCut**, and **Canva**. | [Watch on YouTube](https://youtu.be/JWHEz3DTTMU) |
-| **My Portfolio Website** | This website itself — developed from scratch using HTML, CSS, and JavaScript. | *(You’re already here!)* |
+| **WiFi Controlled Car** | A Wi-Fi controlled smart car using NodeMCU ESP8266 and the Blynk app to control direction and speed remotely. | [View on GitHub](https://github.com/Oaker23/Wifi_Cotrol_car-lot) |
+| **Infographic Animation** | An animated infographic explaining logistics and delivery, created with **Adobe Animate**, **CapCut**, and **Canva**. | [Watch on YouTube](https://youtu.be/JWHEz3DTTMU) |
+| **My Portfolio Website** | This website — built entirely with HTML, CSS, and JavaScript to represent my digital identity. | [Live Website](https://oaker23.github.io/Portfolio-web/) |
 
 ---
 
@@ -39,7 +47,7 @@ a clean, dark-themed layout with smooth animations and responsive design for bot
 |-----------|--------|
 | **Frontend** | HTML, CSS, JavaScript |
 | **Design Tools** | Canva, Adobe Animate |
-| **Soft Skills** | Problem-solving, teamwork, self-learning mindset |
+| **Soft Skills** | Problem-solving, teamwork, self-learning |
 
 ---
 
@@ -48,19 +56,19 @@ a clean, dark-themed layout with smooth animations and responsive design for bot
 - HTML5  
 - CSS3  
 - JavaScript (Vanilla)  
-- Responsive Design  
+- Responsive Layout  
 - Font Awesome Icons  
-- Subtle UI Animations  
+- Custom Hover Animations  
 
 ---
 
 ## ✨ Key Features
 
-- Dark/Light Mode design  
-- Hover animations for cards and buttons  
-- External links open in new tabs (YouTube, GitHub, etc.)  
-- Smooth transition effects for project sections  
-- Mobile-friendly layout  
+- Clean & modern responsive design  
+- Dark/Light mode toggle  
+- Animated project cards and interactive buttons  
+- External links open in new tabs  
+- Smooth scrolling and hover effects  
 
 ---
 
@@ -68,7 +76,7 @@ a clean, dark-themed layout with smooth animations and responsive design for bot
 
 ![Portfolio Screenshot](assets/preview.png)
 
-*(Replace with a real screenshot of your website)*
+*(Replace with a real screenshot of your site for a better visual)*
 
 ---
 
@@ -77,7 +85,7 @@ a clean, dark-themed layout with smooth animations and responsive design for bot
 **Nonthasin Noinat**  
 Digital Technology Student | Front-end Developer in Progress  
 
-> “I believe consistency beats talent — as long as you keep learning, you’ll always move forward.”
+> “Consistency beats talent — keep learning, keep building.”
 
 🔗 [GitHub Profile](https://github.com/Oaker23)
 
@@ -85,7 +93,7 @@ Digital Technology Student | Front-end Developer in Progress
 
 ## 🪶 License
 
-This project is open-source and free to use for educational and personal purposes.  
-Feel free to explore, learn, and improve upon it. Credit is appreciated 💙
+This project is open-source and free for personal or educational use.  
+Feel free to explore, learn, and build your own version — credit is appreciated 💙
 
 ---
